@@ -31,6 +31,8 @@ declare type User = {
   userId: string;
   dwollaCustomerUrl: string;
   dwollaCustomerId: string;
+  firstName: string;
+  lastName: string;
   name: string;
   address1: string;
   city: string;
@@ -58,7 +60,7 @@ declare type Account = {
   type: string;
   subtype: string;
   appwriteItemId: string;
-  sharableId: string;
+  shareableId: string;
 };
 
 declare type Transaction = {
@@ -87,7 +89,7 @@ declare type Bank = {
   accessToken: string;
   fundingSourceUrl: string;
   userId: string;
-  sharableId: string;
+  shareableId: string;
 };
 
 declare type AccountTypes =

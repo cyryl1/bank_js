@@ -11,6 +11,7 @@ import { revalidatePath } from "next/cache";
 import { addFundingSource, createDwollaCustomer } from "./dwolla.actions";
 import { toStateAbbreviation } from "../utils";
 
+
 const {
   APPWRITE_DATABASE_ID: DATABASE_ID,
   APPWRITE_USER_COLLECTION_ID: USER_COLLECTION_ID,
@@ -141,7 +142,7 @@ export const createLinkToken = async (user: User) => {
         client_user_id: user.$id
       },
       client_name: `${user.firstName} ${user.lastName}`,
-      products: ['auth'] as Products[],
+      products: ['auth', 'transactions'] as Products[],
       language: 'en',
       country_codes: ['US'] as CountryCode[],
     }
