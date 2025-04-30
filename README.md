@@ -68,5 +68,8 @@ npm install
 npm run dev
 ```
 
+### ⚠️ Note
+To sign up, use valid US states (2-letter abbreviations) and a valid postal code — otherwise, it won't work. Thank you!
+
 ### 🙏 Acknowledgements
 Special thanks to JavaScript Mastery (JSM) for the continuous inspiration and educational resources that helped shape the foundation of this project.
