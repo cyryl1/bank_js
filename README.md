@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Horizon - Financial SaaS Platform
 
-## Getting Started
+Horizon is a powerful financial SaaS platform built with Next.js that connects to multiple bank accounts, displays real-time transactions, enables peer-to-peer transfers, and helps users manage their finances all in one place.
 
-First, run the development server:
+If you're just getting started or facing any issues, join our vibrant [Discord Community](https://discord.com) with over **34k+** members ready to help!
+
+---
+
+## ⚙️ Tech Stack
+
+- **Next.js**
+- **TypeScript**
+- **Appwrite**
+- **Plaid**
+- **Dwolla**
+- **React Hook Form**
+- **Zod**
+- **TailwindCSS**
+- **Chart.js**
+- **ShadCN**
+
+---
+
+## 🔋 Features
+
+👉 **Authentication**  
+Ultra-secure SSR authentication with validation and role-based authorization.
+
+👉 **Connect Banks**  
+Integrate with Plaid to securely link multiple bank accounts.
+
+👉 **Home Page**  
+View a dashboard overview including total balances, recent transactions, and categorized spending.
+
+👉 **My Banks**  
+Display a complete list of all connected banks with balances and account details.
+
+👉 **Transaction History**  
+Browse transactions with pagination and filter by bank or category.
+
+👉 **Real-time Updates**  
+Reflects changes immediately across all views when accounts are added or updated.
+
+👉 **Funds Transfer**  
+Transfer money between accounts using Dwolla, with all required validations.
+
+👉 **Responsiveness**  
+Mobile-first responsive design ensures seamless experience on all devices.
+
+...and many more features including modular code architecture and reusability.
+
+---
+
+## 🤸 Quick Start
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Installation
 
 ```bash
+git clone https://github.com/your-username/horizon.git
+cd horizon
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+###🙏 Acknowledgements
+Special thanks to JavaScript Mastery (JSM) for the continuous inspiration and educational resources that helped shape the foundation of this project.
